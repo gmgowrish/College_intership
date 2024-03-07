@@ -6,13 +6,19 @@ It includes several steps:
 This section imports necessary libraries like pandas, matplotlib, scikit-learn, etc., for data manipulation, visualization, and machine learning tasks.
 ### Load data: 
 Download The DataSet: https://www.kaggle.com/code/abheeshthmishra/predictions-of-human-activity-recognition-96/input
+
 The code loads the training and testing data from CSV files assumed to be located in the "Dataset" folder.
+
 ### Data exploration: 
+
 It performs some basic data exploration by displaying the first few rows of the data and visualizing the distribution of activity labels.
+
 ### Feature analysis:
 The code counts the occurrences of features related to accelerometers, gyroscopes, and other sensors to understand the feature distribution.
+
 ### Time series analysis:
 It analyzes the time series data for the "STANDING" activity by creating a new column indicating the time window for each data point based on subject changes.
+
 ### Visualization:
 The code generates several visualizations, including:
 
