@@ -1,4 +1,4 @@
-# human activity recognition using wearable sensor data.
+# Human Activity Recognition (HAR) using wearable sensor data.
 
 It includes several steps:
 
@@ -16,10 +16,10 @@ It analyzes the time series data for the "STANDING" activity by creating a new c
 ### Visualization:
 The code generates several visualizations, including:
 
-    A bar chart showing the distribution of activity labels in the training data.
-    A pie chart showing the same distribution in a different format.
-    A bar chart showing the number of features related to accelerometers, gyroscopes, and other sensors.
-    A line plot visualizing the "angle between X and mean Gravity" vs. time for different subjects.
+A bar chart showing the distribution of activity labels in the training data.
+A pie chart showing the same distribution in a different format.
+A bar chart showing the number of features related to accelerometers, gyroscopes, and other sensors.
+A line plot visualizing the "angle between X and mean Gravity" vs. time for different subjects.
 
 ### Machine learning:
 The code trains and evaluates four different machine learning models (Support Vector Classifier, Logistic Regression, K-Nearest Neighbors, and Random Forest) for activity classification and prints their accuracy scores.
